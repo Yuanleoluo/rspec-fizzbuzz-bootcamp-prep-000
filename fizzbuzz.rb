@@ -1,10 +1,10 @@
 def fizzbuzz(a)
   if (a % 3 == 0) && (a % 5 == 0)
-    "Fizz"
+    "FizzBuzz"
   elsif a % 5 == 0
     "Buzz"
   elsif a % 3 ==0
-    "FizzBuzz"
+    "Fizz"
   else
     nil
   end
